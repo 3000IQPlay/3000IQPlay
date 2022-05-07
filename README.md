@@ -2,7 +2,7 @@
 
 Im a small java developer
 
-#### - about me : Small Java Programmer that codes 1.8.9 mc hacks after making skid called "Atrium" (1.12.2 Hacked Client)
+#### - about me : Small Java Developer that codes 1.8.9 mc hacks now
   
 <p align="center">
   <a href="https://github.com/Jurredr/github-widgetbox">
