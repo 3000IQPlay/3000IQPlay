@@ -10,6 +10,6 @@ Im a small java developer
   
 <p align="center">
   <a href="https://github.com/Jurredr/github-widgetbox">
-    <img width="55%" height="55%" src="https://github-widgetbox.vercel.app/api/skills/?names=java,kotlin,html,python,powershell&includeNames=true" alt="GitHubWidgetBox"></p> 
+    <img width="65%" height="65%" src="https://github-widgetbox.vercel.app/api/skills/?names=java,kotlin,html,python,powershell&includeNames=true" alt="GitHubWidgetBox"></p> 
   
 <p align = "center"><img src = "https://github-readme-stats.vercel.app/api?username=3000IQPlay&bg_color=30,e96443,904e95&title_color=fff&text_color=fff"></p>
