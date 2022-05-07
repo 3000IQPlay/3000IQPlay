@@ -6,6 +6,6 @@ Im a small java developer
 
 <p align = "center"><img src = "https://github-widgetbox.vercel.app/api/profile?username=3000IQPlay&data=followers,repositories,stars,commits"></p>
 
-<p align = "center"><img src = "https://github-widgetbox.vercel.app/api/skills?names=js,java,python,html,,kotlin,powershell)](https://github.com/Jurredr/github-widgetbox"></p>
+<p align = "center"><img src = "https://github-widgetbox.vercel.app/api/skills?names=js,java,python,html,,kotlin,powershell)](https://github.com/Jurredr/github-widgetbox";includeNames=true" style="max-width: 100%;">></p>
 
 <p align = "center"><img src = "https://github-readme-stats.vercel.app/api?username=3000IQPlay&bg_color=30,e96443,904e95&title_color=fff&text_color=fff"></p>
