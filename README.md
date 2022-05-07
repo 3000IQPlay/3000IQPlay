@@ -1,7 +1,5 @@
 ## Hello 👋, Im _3000IQPlay
 
-Im a small java developer
-
 #### - about me : Small Java Developer that codes 1.8.9 mc hacks now
   
 <p align="center">
