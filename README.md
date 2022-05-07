@@ -9,7 +9,7 @@ Im a small java developer
     <img width="90%" height="90%" src="https://github-widgetbox.vercel.app/api/profile?username=3000IQPlay&data=followers,repositories,stars,commits" alt="GitHub WidgetBox" />
   </a>
   <a href="https://github.com/Jurredr/github-widgetbox">
-    <img width="70%" height="55%" src="https://github-widgetbox.vercel.app/api/skills/?names=java,kotlin,html,python,powershell&includeNames=true" alt="GitHub WidgetBox" />
+    <img width="70%" height="40%" src="https://github-widgetbox.vercel.app/api/skills/?names=java,kotlin,html,python,powershell&includeNames=true" alt="GitHub WidgetBox" />
   </a>
 </p>
 
