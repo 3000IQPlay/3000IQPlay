@@ -1,6 +1,6 @@
-## Hello 👋, Im _3000IQPlay
+# Hello 👋, Im _3000IQPlay
 
-#### - about me : Small Java Developer that codes 1.12.2 hax and is still learning
+## - about me : Small Java Developer that codes 1.12.2 hax and is still learning
 <p align="center">
   <a href="https://github.com/Jurredr/github-widgetbox">
     <img width="60%" height="60%" src="https://github-widgetbox.vercel.app/api/skills/?names=java,javascript,html,powershell&includeNames=true" alt="GitHubWidget Box"></p>
