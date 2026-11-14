@@ -1,4 +1,4 @@
-name: Update stars
+name: Update stats
 
 on:
   schedule:
@@ -16,10 +16,15 @@ jobs:
       - run: python3 scripts/update_stars.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # STATS_TOKEN is an optional read-only personal token, only needed if GitHub ever refuses the default one here
+      - run: python3 scripts/update_contributions.py
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
       - name: Commit if changed
         run: |
           git diff --quiet && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Updated stars"
+          git commit -am "Updated stats"
           git push
