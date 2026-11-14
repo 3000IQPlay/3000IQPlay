@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="390" height="220" viewBox="0 0 390 220" role="img" aria-labelledby="title">
-  <title id="title">AntiRAT-21: OpenJDK 21, modified to catch malicious code. 33 stars</title>
+  <title id="title">AntiRAT-21: OpenJDK 21, modified to catch malicious code. 30+ stars</title>
   <style>
     .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
     .lbl{font-size:13px;font-weight:600;letter-spacing:3px;fill:#7d768a}
@@ -28,7 +28,7 @@
     <text x="32" y="116" font-size="28" font-weight="700" fill="#f5f2f8">AntiRAT-21</text>
     <text class="desc" x="32" y="146" font-size="17">OpenJDK 21, modified to</text>
     <text class="desc" x="32" y="169" font-size="17">catch malicious code.</text>
-    <text x="32" y="198" font-size="15" font-weight="600" class="stars" fill="#e96443">33 stars</text>
+    <text x="32" y="198" font-size="15" font-weight="600" class="stars" fill="#e96443">30+ stars</text>
   </g>
   <rect x=".5" y=".5" width="389" height="219" rx="21.5" fill="none" stroke="#fff" stroke-opacity=".08"/>
 </svg>

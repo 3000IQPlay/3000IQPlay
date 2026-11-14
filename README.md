@@ -11,6 +11,5 @@
   <a href="https://github.com/3000IQPlay/AntiRAT-21"><img src="assets/project-antirat-21.svg" width="32.5%" alt="AntiRAT-21: OpenJDK 21, modified to catch malicious code"></a>
   <a href="https://github.com/3000IQPlay/IQ-Docs"><img src="assets/project-iq-docs.svg" width="66%" alt="IQ-Docs: how not to get ratted in the Minecraft community"></a>
   <br>
-  <img src="assets/contributions.svg" width="66%" alt="Contribution heatmap for the last 12 months">
-  <img src="assets/contribution-stats.svg" width="32.5%" alt="Total contributions and longest streak">
+  <img src="assets/stats.svg" width="99%" alt="Total contributions, stars earned and longest streak">
 </p>

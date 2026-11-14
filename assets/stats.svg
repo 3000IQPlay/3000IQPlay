@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1188" height="170" viewBox="0 0 1188 170" role="img" aria-labelledby="title">
+  <title id="title">870+ contributions, 830+ stars earned, longest streak 13 days</title>
+  <style>
+    .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+    .lbl{font-size:13px;font-weight:600;letter-spacing:3px;fill:#7d768a}
+    .sheen{animation:sheen 10s ease-in-out 2s infinite}
+    @keyframes sheen{0%{transform:translateX(-400px)}14%,100%{transform:translateX(1600px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <radialGradient id="glow" cx=".5" cy="1.2" r=".9"><stop offset="0" stop-color="#904e95" stop-opacity=".22"/><stop offset="1" stop-color="#904e95" stop-opacity="0"/></radialGradient>
+    <linearGradient id="num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9a76"/><stop offset=".55" stop-color="#e96443"/><stop offset="1" stop-color="#a24f8c"/></linearGradient>
+    <linearGradient id="sheenG" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="frame"><rect width="1188" height="170" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1188" height="170" fill="#111015"/>
+    <rect width="1188" height="170" fill="url(#glow)"/>
+    <g transform="rotate(20 594 85)"><rect class="sheen" x="0" y="-300" width="170" height="770" fill="url(#sheenG)"/></g>
+  </g>
+  <g stroke="#fff" stroke-opacity=".08"><line x1="396.5" y1="36" x2="396.5" y2="134"/><line x1="792.5" y1="36" x2="792.5" y2="134"/></g>
+  <g class="sans">
+    <text class="lbl" x="40" y="62">CONTRIBUTIONS</text>
+    <text x="38" y="128" font-size="56" font-weight="700" letter-spacing="-1.5" fill="url(#num)">870+</text>
+    <text class="lbl" x="436" y="62">STARS EARNED</text>
+    <text x="434" y="128" font-size="56" font-weight="700" letter-spacing="-1.5" fill="url(#num)">830+</text>
+    <text class="lbl" x="832" y="62">LONGEST STREAK</text>
+    <text x="830" y="128" font-size="56" font-weight="700" letter-spacing="-1.5" fill="#f5f2f8">13 days</text>
+  </g>
+  <rect x=".5" y=".5" width="1187" height="169" rx="21.5" fill="none" stroke="#fff" stroke-opacity=".08"/>
+</svg>
