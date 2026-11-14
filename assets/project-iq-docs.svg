@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="792" height="220" viewBox="0 0 792 220" role="img" aria-labelledby="title">
+  <title id="title">IQ-Docs: How not to get ratted in the Minecraft community. 29 stars</title>
+  <style>
+    .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+    .lbl{font-size:13px;font-weight:600;letter-spacing:3px;fill:#7d768a}
+    .desc{fill:#a59fae}
+    .sheen{animation:sheen 10s ease-in-out 1.75s infinite}
+    @keyframes sheen{0%{transform:translateX(-400px)}14%,100%{transform:translateX(1200px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f07a58"/><stop offset="1" stop-color="#904e95"/></linearGradient>
+    <linearGradient id="num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9a76"/><stop offset=".55" stop-color="#e96443"/><stop offset="1" stop-color="#a24f8c"/></linearGradient>
+    <radialGradient id="glow" cx=".35" cy="0" r="1"><stop offset="0" stop-color="#904e95" stop-opacity=".22"/><stop offset=".7" stop-color="#904e95" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sheenG" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="frame"><rect width="792" height="220" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="792" height="220" fill="#111015"/>
+    <rect width="792" height="220" fill="url(#glow)"/>
+
+    <g transform="rotate(20 396 110)"><rect class="sheen" x="0" y="-250" width="170" height="720" fill="url(#sheenG)"/></g>
+  </g>
+  <path d="M742 52l14-14M746 38h10v10" fill="none" stroke="#6f6878" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="36" y="30" width="48" height="48" rx="12" fill="url(#brand)"/>
+  <g transform="translate(60 54) scale(.8) translate(-58 -58)"><path d="M48 40h15l9 9v27a2 2 0 0 1-2 2H48a2 2 0 0 1-2-2V42a2 2 0 0 1 2-2z" fill="#fff"/><path d="M63 40v9h9" fill="none" stroke="#b0566e" stroke-width="2"/><g fill="#b0566e"><rect x="51" y="56" width="16" height="2.5" rx="1"/><rect x="51" y="62" width="12" height="2.5" rx="1"/><rect x="51" y="68" width="16" height="2.5" rx="1"/></g></g>
+  <g class="sans">
+    <text x="36" y="128" font-size="36" font-weight="700" fill="#f5f2f8">IQ-Docs</text>
+    <text class="desc" x="36" y="160" font-size="18">How not to get ratted in the Minecraft</text>
+    <text class="desc" x="36" y="186" font-size="18">community.</text>
+    <text x="740" y="150" text-anchor="end" font-size="110" font-weight="700" letter-spacing="-4" class="stars" fill="url(#num)">29</text>
+    <text class="lbl" x="740" y="190" text-anchor="end">STARS</text>
+  </g>
+  <rect x=".5" y=".5" width="791" height="219" rx="21.5" fill="none" stroke="#fff" stroke-opacity=".08"/>
+</svg>

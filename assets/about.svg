@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="792" height="220" viewBox="0 0 792 220" role="img" aria-labelledby="title">
+  <title id="title">About: reversing java since 2021. obfuscators, minecraft clients, rats hidden in mods.</title>
+  <style>
+    .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+    .sheen{animation:sheen 10s ease-in-out .75s infinite}
+    @keyframes sheen{0%{transform:translateX(-400px)}14%,100%{transform:translateX(1200px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a45dab"/><stop offset="1" stop-color="#5f2f68"/></linearGradient>
+    <linearGradient id="sheenG" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="grain" filterUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .07 0"/></filter>
+    <pattern id="grainTile" width="240" height="240" patternUnits="userSpaceOnUse"><rect width="240" height="240" filter="url(#grain)"/></pattern>
+    <clipPath id="frame"><rect width="792" height="220" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="792" height="220" fill="url(#bg)"/>
+    <text class="sans" x="820" y="290" text-anchor="end" font-size="250" font-weight="800" letter-spacing="-10" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2">2021</text>
+    <rect width="792" height="220" fill="url(#grainTile)"/>
+    <g transform="rotate(20 396 110)"><rect class="sheen" x="0" y="-250" width="180" height="720" fill="url(#sheenG)"/></g>
+  </g>
+  <g class="sans">
+    <text x="36" y="52" font-size="13" font-weight="600" letter-spacing="3" fill="#ecd6ef">ABOUT</text>
+    <g font-size="32" font-weight="600" fill="#fff" letter-spacing="-.5">
+      <text x="36" y="130">reversing java since 2021. obfuscators,</text>
+      <text x="36" y="172">minecraft clients, rats hidden in mods.</text>
+    </g>
+  </g>
+</svg>

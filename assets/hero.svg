@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="792" height="300" viewBox="0 0 792 300" role="img" aria-labelledby="title">
+  <title id="title">3000IQPlay, reverse engineer</title>
+  <style>
+    .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+    .a{animation:a 16s ease-in-out infinite alternate}
+    .b{animation:b 20s ease-in-out infinite alternate}
+    .orb{animation:float 7s ease-in-out infinite alternate}
+    .sheen{animation:sheen 10s ease-in-out infinite}
+    @keyframes a{to{transform:translate(110px,-20px)}}
+    @keyframes b{to{transform:translate(-120px,30px)}}
+    @keyframes float{to{transform:translateY(-10px)}}
+    @keyframes sheen{0%{transform:translateX(-400px)}14%,100%{transform:translateX(1200px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <radialGradient id="gO"><stop offset="0" stop-color="#e96443" stop-opacity=".5"/><stop offset="1" stop-color="#e96443" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gP"><stop offset="0" stop-color="#904e95" stop-opacity=".55"/><stop offset="1" stop-color="#904e95" stop-opacity="0"/></radialGradient>
+    <radialGradient id="halo"><stop offset=".5" stop-color="#e96443" stop-opacity=".25"/><stop offset="1" stop-color="#904e95" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbFill" cx=".5" cy=".5" r=".5" fx=".32" fy=".28">
+      <stop offset="0" stop-color="#ffe2d4"/>
+      <stop offset=".18" stop-color="#f6916f"/>
+      <stop offset=".5" stop-color="#c8566a"/>
+      <stop offset=".8" stop-color="#5a2a60"/>
+      <stop offset="1" stop-color="#1c1022"/>
+    </radialGradient>
+    <radialGradient id="rim"><stop offset=".82" stop-color="#c79bff" stop-opacity="0"/><stop offset=".97" stop-color="#d4b0ff" stop-opacity=".35"/><stop offset="1" stop-color="#d4b0ff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sheenG" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="grain" filterUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .08 0"/></filter>
+    <pattern id="grainTile" width="240" height="240" patternUnits="userSpaceOnUse"><rect width="240" height="240" filter="url(#grain)"/></pattern>
+    <clipPath id="frame"><rect width="792" height="300" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="792" height="300" fill="#111015"/>
+    <circle class="a" cx="60" cy="320" r="300" fill="url(#gO)"/>
+    <circle class="b" cx="780" cy="-60" r="300" fill="url(#gP)"/>
+    <g class="orb">
+      <circle cx="672" cy="150" r="195" fill="url(#halo)"/>
+      <circle cx="672" cy="150" r="125" fill="url(#orbFill)"/>
+      <circle cx="672" cy="150" r="125" fill="url(#rim)"/>
+    </g>
+    <rect width="792" height="300" fill="url(#grainTile)"/>
+    <g transform="rotate(20 396 150)"><rect class="sheen" x="0" y="-200" width="180" height="700" fill="url(#sheenG)"/></g>
+  </g>
+  <g class="sans">
+    <text x="40" y="58" font-size="13" font-weight="600" letter-spacing="3" fill="#b9b2c4">REVERSE ENGINEER</text>
+    <text x="34" y="250" font-size="112" font-weight="700" letter-spacing="-4" fill="#f5f2f8">3000IQPlay</text>
+  </g>
+  <rect x=".5" y=".5" width="791" height="299" rx="21.5" fill="none" stroke="#fff" stroke-opacity=".08"/>
+</svg>

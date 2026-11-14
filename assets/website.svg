@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="300" viewBox="0 0 390 300" role="img" aria-labelledby="title">
+  <title id="title">Find me here: 3000iqplay.dev</title>
+  <style>
+    .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ping 3.6s ease-out infinite both}
+    .sheen{animation:sheen 10s ease-in-out .25s infinite}
+    @keyframes ping{from{transform:scale(1);opacity:.4}to{transform:scale(6);opacity:0}}
+    @keyframes sheen{0%{transform:translateX(-400px)}14%,100%{transform:translateX(1200px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.ring{display:none}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f47c5c"/><stop offset="1" stop-color="#dc5236"/></linearGradient>
+    <linearGradient id="sheenG" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="grain" filterUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .1  0 0 0 0 .03  0 0 0 0 0  0 0 0 .14 0"/></filter>
+    <pattern id="grainTile" width="240" height="240" patternUnits="userSpaceOnUse"><rect width="240" height="240" filter="url(#grain)"/></pattern>
+    <clipPath id="frame"><rect width="390" height="300" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="390" height="300" fill="url(#bg)"/>
+    <rect width="390" height="300" fill="url(#grainTile)"/>
+    <g fill="none" stroke="#1d0b06" stroke-width="1.5">
+      <circle class="ring" cx="342" cy="52" r="26" vector-effect="non-scaling-stroke"/>
+      <circle class="ring" cx="342" cy="52" r="26" vector-effect="non-scaling-stroke" style="animation-delay:1.2s"/>
+      <circle class="ring" cx="342" cy="52" r="26" vector-effect="non-scaling-stroke" style="animation-delay:2.4s"/>
+    </g>
+    <g transform="rotate(20 195 150)"><rect class="sheen" x="0" y="-200" width="160" height="700" fill="url(#sheenG)"/></g>
+  </g>
+  <g class="sans">
+    <text x="32" y="58" font-size="13" font-weight="600" letter-spacing="3" fill="#4a1b0e">WEBSITE</text>
+    <text x="30" y="226" font-size="42" font-weight="700" letter-spacing="-1.2" fill="#1d0b06">find me here</text>
+    <text x="32" y="260" font-size="17" font-weight="600" fill="#5a2312">3000iqplay.dev</text>
+  </g>
+  <circle cx="342" cy="52" r="26" fill="#1d0b06"/>
+  <path d="M334 60l16-16M338 44h12v12" fill="none" stroke="#f47c5c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
